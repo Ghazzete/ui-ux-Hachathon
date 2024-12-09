@@ -18,7 +18,7 @@ function Products() {
         <div className="relative flex flex-col  w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card1.svg"}
+    src={"/card (1).svg"}
     alt="img"
     width={285}
     height={301}
@@ -43,7 +43,7 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card2.svg"}
+    src={"/card (2).svg"}
     alt="img"
     width={285}
     height={301}
@@ -64,7 +64,7 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card3.svg"}
+    src={"/card (3).svg"}
     alt="img"
     width={285}
     height={301}
@@ -89,7 +89,7 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card4.svg"}
+    src={"/card (4).svg"}
     alt="img"
     width={285}
     height={301}
@@ -113,7 +113,7 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card5.svg"}
+    src={"/card (5).svg"}
     alt="img"
     width={285}
     height={301}
@@ -137,7 +137,7 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card6.svg"}
+    src={"/card (6).svg"}
     alt="img"
     width={285}
     height={301}
@@ -161,7 +161,7 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card7.svg"}
+    src={"/card (7).svg"}
     alt="img"
     width={285}
     height={301}
@@ -186,7 +186,7 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card8.svg"}
+    src={"/card (8).svg"}
     alt="img"
     width={285}
     height={301}
