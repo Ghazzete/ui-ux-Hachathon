@@ -14,11 +14,20 @@ const Header = () => {
 
   return (
     <header className="w-full max-w-[1440px] mx-auto h-[100px] bg-[#FFFFFF] shadow-md">
-      <div className="px-6 md:px-[56px] py-[29px] flex items-center justify-between ">
+      <div className="px-6 md:px-[56px] py-[29px] flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <Image src="/logo1.svg" alt="logo" height={32} width={50} />
-          <h1 className="font-montserrat font-bold text-[24px] md:text-[34px] ml-2">Funira</h1>
+          <img
+            src="/logo1.svg"
+            alt="logo"
+            height={32}
+            width={50}
+            className="object-contain"
+            
+          />
+          <h1 className="font-montserrat font-bold text-[24px] md:text-[34px] ml-2 w-auto h-auto">
+            Funira
+          </h1>
         </div>
 
         {/* Desktop Navigation */}
@@ -35,15 +44,39 @@ const Header = () => {
           <Link href="/signUp" className="hover:text-gray-600">
             Contact
           </Link>
-          </nav>
-          <div className="flex space-x-4  md:space-x-10">
-            <Image src="/Vector1.svg" alt="icon1" height={28} width={28} />
-            <Image src="/Vector2.svg" alt="icon2" height={28} width={28} />
-            <Image src="/Vector3.svg" alt="icon3" height={28} width={28} />
-            <Image src="/Vector4.svg" alt="icon4" height={28} width={28} />
-          </div>
-          
-        
+        </nav>
+
+        {/* Icon Section */}
+        <div className="flex space-x-4 md:space-x-10">
+          <Image
+            src="/Vector1.svg"
+            alt="icon1"
+            height={28}
+            width={28}
+            className="h-auto w-auto"
+          />
+          <Image
+            src="/Vector2.svg"
+            alt="icon2"
+            height={28}
+            width={28}
+            className="h-auto w-auto"
+          />
+          <Image
+            src="/Vector3.svg"
+            alt="icon3"
+            height={28}
+            width={28}
+            className="h-auto w-auto"
+          />
+          <Image
+            src="/Vector4.svg"
+            alt="icon4"
+            height={28}
+            width={28}
+            className="h-auto w-auto"
+          />
+        </div>
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
