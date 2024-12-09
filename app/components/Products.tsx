@@ -18,11 +18,11 @@ function Products() {
         <div className="relative flex flex-col  w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (1).svg"}
+    src={"/card1.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className="w-full max-w-auto h-auto"
   />
 
   {/* Discount Circle */}
@@ -43,11 +43,11 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (2).svg"}
+    src={"/card2.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className="w-full max-w-auto h-auto"
   />
 
   {/* Text Content */}
@@ -64,11 +64,11 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (3).svg"}
+    src={"/card3.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className="w-full max-w-auto h-auto"
   />
 
   {/* Discount Circle */}
@@ -89,11 +89,11 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (4).svg"}
+    src={"/card4.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className="w-full max-w-auto h-auto"
   />
 
   {/* Discount Circle */}
@@ -113,11 +113,11 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (5).svg"}
+    src={"/card5.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className="w-full max-w-auto h-auto"
   />
 
   {/* Discount Circle */}
@@ -137,11 +137,11 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (6).svg"}
+    src={"/card6.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className=" w-auto h-auto"
   />
 
   {/* Discount Circle */}
@@ -161,11 +161,11 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (7).svg"}
+    src={"/card7.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className="w-full max-w-auto h-auto"
   />
 
   {/* Discount Circle */}
@@ -186,11 +186,11 @@ function Products() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (8).svg"}
+    src={"/card8.svg"}
     alt="img"
     width={285}
-    height={3901}
-    className="w-full max-w-[300px] h-auto"
+    height={301}
+    className="w-full max-w-[auto] h-auto"
   />
 
   {/* Discount Circle */}
