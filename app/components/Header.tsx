@@ -35,13 +35,13 @@ const Header = () => {
           <Link href="/" className="hover:text-gray-600">
             Home
           </Link>
-          <Link href="/contact" className="hover:text-gray-600">
+          <Link href="/shop" className="hover:text-gray-600">
             Shop
           </Link>
-          <Link href="/about" className="hover:text-gray-600">
+          <Link href="/blog" className="hover:text-gray-600">
             Blog
           </Link>
-          <Link href="/signUp" className="hover:text-gray-600">
+          <Link href="/contact" className="hover:text-gray-600">
             Contact
           </Link>
         </nav>
@@ -108,17 +108,17 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" onClick={toggleMenu} className="block">
+                <Link href="/shop" onClick={toggleMenu} className="block">
                   Shop
                 </Link>
               </li>
               <li>
-                <Link href="/about" onClick={toggleMenu} className="block">
+                <Link href="/blog" onClick={toggleMenu} className="block">
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/signUp" onClick={toggleMenu} className="block">
+                <Link href="/contact" onClick={toggleMenu} className="block">
                   Contact
                 </Link>
               </li>

@@ -2,6 +2,8 @@ import { Poppins, Roboto} from "next/font/google"
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const myfont = Poppins({
   subsets: ["latin"],
@@ -28,8 +30,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-         className={myfont.className}>
+      className={myfont.className}>
+      <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

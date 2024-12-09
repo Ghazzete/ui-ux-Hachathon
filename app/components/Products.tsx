@@ -209,6 +209,7 @@ function Products() {
       <div className="py-6 flex justify-center">
         <button className="w-[245px] h-[48px]  border-2 border-red-700 text-[#B88E2F]">Show more</button>
       </div>
+
       </div>
       
 
