@@ -30,7 +30,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="container px-4 py-8">
+    <div className=" px-4 py-8">
       {/* Hero Section */}
       <div
         id="hero"
@@ -38,7 +38,14 @@ export default function Home() {
         style={{ backgroundImage: "url('/Rectangle 1.svg')" }}
       >
         <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
-          <h1 className="text-[48px] font-medium text-[#000000]">Shop</h1>
+        <img
+            src="/logo1.svg"
+            alt="logo"
+            height={32}
+            width={50}
+            className="object-contain"
+          />
+          <h1 className="text-[48px] font-medium text-[#000000]">Blog</h1>
           <div className="flex flex-row items-center">
             <h2 className="font-medium text-[#000000] flex items-center">
               Home
@@ -46,7 +53,7 @@ export default function Home() {
                 <Image src="/icon.svg" alt="icon" height={8} width={14} />
               </span>
             </h2>
-            <p className="font-light text-[#000000] ml-2">Shop</p>
+            <p className="font-light text-[#000000] ml-2">blog</p>
           </div>
         </div>
       </div>

@@ -69,13 +69,15 @@ const Header = () => {
             width={28}
             className="h-auto w-auto"
           />
-          <Image
-            src="/Vector4.svg"
-            alt="icon4"
-            height={28}
-            width={28}
-            className="h-auto w-auto"
-          />
+          <Link href="/cart">
+        <Image
+          src="/Vector4.svg"
+          alt="icon4"
+          height={28}
+          width={28}
+          className="h-auto w-auto cursor-pointer"
+        />
+      </Link>
         </div>
 
         {/* Mobile Menu Icon */}

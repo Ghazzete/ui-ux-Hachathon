@@ -9,21 +9,22 @@ export default function Contact() {
         style={{ backgroundImage: "url('/Rectangle 1.svg')" }} // Replace with your background image
       >
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40">
-          <h1 className="text-[48px] font-bold text-white">Contact</h1>
+          <h1 className="text-[48px] font-medium text-[#000000]">Contact</h1>
           <div className="flex items-center mt-2">
-            <h2 className="text-white font-medium">Home</h2>
-            <span className="text-white mx-2">/</span>
-            <p className="text-white font-light">Contact</p>
+            <h2 className="text-[#000000] font-medium">Home</h2>
+            <span className=" mx-2">
+              <Image src="/icon.svg" alt="icon" height={8} width={14} /></span>
+            <p className="text-[#000000] font-light">Contact</p>
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="mx-8 px-4 py-12 ">
         <h2 className="text-3xl font-semibold text-center mb-8">
           Get In Touch With Us
         </h2>
-        <p className="text-center text-gray-600 mb-12">
+        <p className="text-center text-[#9F9F9F] w-[644px] mx-auto mb-12">
           For More Information About Our Product & Services, Please Feel Free To
           Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not
           Hesitate!
@@ -33,7 +34,9 @@ export default function Contact() {
           <div className="flex flex-col space-y-8 lg:w-1/3">
             {/* Address */}
             <div className="flex items-start space-x-4">
-              <span className="text-2xl text-yellow-500">📍</span>
+              <span className="text-2xl text-yellow-500">
+                <Image src="/address.svg" alt="icon" height={27} width={22} />
+                </span>
               <div>
                 <h3 className="text-lg font-medium">Address</h3>
                 <p className="text-gray-600">
@@ -43,7 +46,9 @@ export default function Contact() {
             </div>
             {/* Phone */}
             <div className="flex items-start space-x-4">
-              <span className="text-2xl text-yellow-500">📞</span>
+              <span className="text-2xl text-yellow-500">
+              <Image src="/phone.svg" alt="icon" height={27} width={22} />
+              </span>
               <div>
                 <h3 className="text-lg font-medium">Phone</h3>
                 <p className="text-gray-600">
@@ -55,7 +60,9 @@ export default function Contact() {
             </div>
             {/* Working Time */}
             <div className="flex items-start space-x-4">
-              <span className="text-2xl text-yellow-500">🕒</span>
+              <span>
+              <Image src="/clock.svg" alt="icon" height={27} width={22} />
+              </span>
               <div>
                 <h3 className="text-lg font-medium">Working Time</h3>
                 <p className="text-gray-600">
@@ -114,10 +121,10 @@ export default function Contact() {
                   className="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring focus:ring-yellow-300"
                 ></textarea>
               </div>
-              <div className="sm:col-span-2">
+              <div className="sm:col-span-2 mt-4">
                 <button
                   type="submit"
-                  className="w-full bg-[#B88E2F] text-white font-medium py-2 rounded-lg hover:bg-yellow-600 transition"
+                  className="w-[237px] h-[55px] bg-[#B88E2F] text-[#FFFFFF] py-2 rounded-lg hover:bg-yellow-600 transition"
                 >
                   Submit
                 </button>

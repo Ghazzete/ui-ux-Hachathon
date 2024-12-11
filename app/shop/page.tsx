@@ -318,7 +318,7 @@ function ShopePage() {
         <h1 className=' text-black'>1</h1>
     </div>
     <div className='w-[98px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
-        <h1 className=' text-black'>1</h1>
+        <h1 className=' text-black'>Next</h1>
     </div>
 </div>
 <div className="h-auto mx-2 flex items-center bg-[#FAF3EA] py-6">

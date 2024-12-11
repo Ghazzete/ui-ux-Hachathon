@@ -128,8 +128,8 @@ function Products() {
   {/* Text Content */}
   <h1 className="px-2 font-semibold mt-3">Grifo</h1>
   <p className="px-2 font-medium text-[#898989] mt-3">Night lamp</p>
-  <p className="px-2 font-semibold text-[20px] mt-3"></p>
-  Rp 1.500.000
+  <p className="px-2 font-semibold text-[20px] mt-3"> Rp 1.500.000</p>
+ 
     
 </div>
 
@@ -152,8 +152,8 @@ function Products() {
   {/* Text Content */}
   <h1 className="px-2 font-semibold mt-3">Muggo</h1>
   <p className="px-2 font-medium text-[#898989] mt-3">Small mug</p>
-  <p className="px-2 font-semibold text-[20px] mt-3"></p>
-  Rp 150.000
+  <p className="px-2 font-semibold text-[20px] mt-3"> Rp 1.500.000</p>
+  
     
 </div>
 
@@ -207,7 +207,7 @@ function Products() {
 </div> 
       </div>
       <div className="py-6 flex justify-center">
-        <button className="w-[245px] h-[48px]  border-2 border-red-700 text-[#B88E2F]">Show more</button>
+        <button className="w-[245px] h-[48px]  border-2 border-[#B88E2F] text-[#B88E2F]">Show more</button>
       </div>
 
       </div>
