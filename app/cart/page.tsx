@@ -12,7 +12,7 @@ function page() {
       style={{ backgroundImage: "url('/Rectangle 1.svg')" }}
     >
       <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
-      <img
+      <Image
           src="/logo1.svg"
           alt="logo"
           height={32}

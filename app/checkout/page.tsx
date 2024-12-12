@@ -18,7 +18,7 @@ function Page() {
         style={{ backgroundImage: "url('/Rectangle 1.svg')" }}
       >
         <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
-          <img src="/logo1.svg" alt="logo" height={32} width={50} className="object-contain" />
+          <Image src="/logo1.svg" alt="logo" height={32} width={50} className="object-contain" />
           <h1 className="text-[48px] font-medium text-[#000000]">Checkout</h1>
           <div className="flex flex-row items-center">
             <h2 className="font-medium text-[#000000] flex items-center">

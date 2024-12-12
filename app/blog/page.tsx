@@ -139,7 +139,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col gap-6 lg:w-2/3 mt-8">
-          <img
+          <Image
             src="/blog3.svg"
             alt="Blog Post"
             className="rounded-lg w-full h-[500px] object-cover"

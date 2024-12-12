@@ -17,7 +17,7 @@ const Header = () => {
       <div className="px-6 md:px-[56px] py-[29px] flex items-center justify-between">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img
+          <Image
             src="/logo1.svg"
             alt="logo"
             height={32}
