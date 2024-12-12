@@ -38,7 +38,7 @@ export default function Home() {
         style={{ backgroundImage: "url('/Rectangle 1.svg')" }}
       >
         <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
-        <img
+        <Image
             src="/logo1.svg"
             alt="logo"
             height={32}
@@ -62,7 +62,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row gap-8 mt-8">
         {/* Blog Section */}
         <div className="flex flex-col gap-6 lg:w-2/3">
-          <img
+          <Image
             src="/blog.svg"
             alt="Blog Post"
             className="rounded-lg w-full h-[500px] object-cover"
@@ -96,7 +96,7 @@ export default function Home() {
             {posts.map((post, index) => (
               <div key={index} className="flex items-center space-x-4">
                 {/* Post Image */}
-                <img
+                <Image
                   src={post.image}
                   alt={post.title}
                   className="w-16 h-16 object-cover rounded-lg"
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col gap-6 lg:w-2/3 mt-8">
-          <img
+          <Image
             src="/blog2.svg"
             alt="Blog Post"
             className="rounded-lg w-full h-[500px] object-cover"
