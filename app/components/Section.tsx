@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Section1 from "@/Public/section1.svg"
+import Section2 from "@/Public/section2.svg"
 
 export default function Section() {
   return (
@@ -23,7 +25,7 @@ export default function Section() {
           {/* First Image */}
           <div className="w-[300px] h-[400px] flex-shrink-0 overflow-hidden rounded-md shadow-lg">
             <Image
-              src="/section1.svg"
+              src={Section1}
               alt="Bedroom Inspiration"
               width={404}
               height={582}
@@ -38,7 +40,7 @@ export default function Section() {
           {/* Second Image */}
           <div className="w-[300px] h-[400px] flex-shrink-0 overflow-hidden rounded-md shadow-lg hidden md:block">
             <Image
-              src="/section2.svg"
+              src={Section2}
               alt="Living Room Inspiration"
               width={372}
               height={486}
@@ -50,5 +52,3 @@ export default function Section() {
     </section>
   );
 }
-
-

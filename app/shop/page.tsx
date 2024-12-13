@@ -1,6 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import { DiVim } from 'react-icons/di';
+import card1 from "@/Public/card (1).svg"
+import card2 from "@/Public/card (2).svg"
+import card3 from "@/Public/card (3).svg"
+import card4 from "@/Public/card (4).svg"
 
 function ShopePage() {
   return (
@@ -30,7 +34,7 @@ function ShopePage() {
         <div className="relative flex flex-col  w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */} 
   <Image
-    src={"/card (1).svg"}
+    src={card1}
     alt="img"
     width={285}
     height={301}
@@ -55,7 +59,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (2).svg"}
+    src={card2}
     alt="img"
     width={285}
     height={301}
@@ -76,7 +80,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (3).svg"}
+    src={card3}
     alt="img"
     width={285}
     height={301}
@@ -101,7 +105,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (4).svg"}
+    src={card4}
     alt="img"
     width={285}
     height={301}
@@ -123,7 +127,7 @@ function ShopePage() {
 <div className="relative flex flex-col  w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */} 
   <Image
-    src={"/card (1).svg"}
+    src={card1}
     alt="img"
     width={285}
     height={301}
@@ -148,7 +152,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (2).svg"}
+    src={card2}
     alt="img"
     width={285}
     height={301}
@@ -169,7 +173,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (3).svg"}
+    src={card3}
     alt="img"
     width={285}
     height={301}
@@ -194,7 +198,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (4).svg"}
+    src={card4}
     alt="img"
     width={285}
     height={301}
@@ -216,7 +220,7 @@ function ShopePage() {
 <div className="relative flex flex-col  w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */} 
   <Image
-    src={"/card (1).svg"}
+    src={card1}
     alt="img"
     width={285}
     height={301}
@@ -241,7 +245,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (2).svg"}
+    src={card2}
     alt="img"
     width={285}
     height={301}
@@ -262,7 +266,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (3).svg"}
+    src={card3}
     alt="img"
     width={285}
     height={301}
@@ -287,7 +291,7 @@ function ShopePage() {
         <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */}
   <Image
-    src={"/card (4).svg"}
+    src={card4}
     alt="img"
     width={285}
     height={301}

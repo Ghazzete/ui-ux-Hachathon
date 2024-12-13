@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Image1 from "@/Public/image 1.svg"
+import Image2 from "@/Public/image 2.svg"
+import Image3 from "@/Public/image 3.svg"
 
 function Features() {
   return (
@@ -19,7 +22,7 @@ function Features() {
         {/* Item 1 */}
         <div className="flex flex-col items-center">
           <Image
-            src={"/image 1.svg"}
+            src={Image1}
             alt="image"
             width={300}
             height={380}
@@ -31,7 +34,7 @@ function Features() {
         {/* Item 2 */}
         <div className="flex flex-col items-center">
           <Image
-            src={"/image 2.svg"}
+            src={Image2}
             alt="image"
             width={300}
             height={380}
@@ -43,7 +46,7 @@ function Features() {
         {/* Item 3 */}
         <div className="flex flex-col items-center">
           <Image
-            src={"/image 3.svg"}
+            src={Image3}
             alt="image"
             width={300}
             height={380}
