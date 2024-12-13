@@ -4,6 +4,11 @@ import Image from "next/image";
 import { LuMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5"; // Close icon
 import Link from "next/link";
+import Logo1 from "@/Public/Logo1.svg"
+import Vector1 from "@/Public/Vector1.svg"
+import Vector2 from "@/Public/Vector2.svg"
+import Vector3 from "@/Public/Vector3.svg"
+import Vector4 from "@/Public/Vector4.svg"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +23,7 @@ const Header = () => {
         {/* Logo Section */}
         <div className="flex items-center">
           <Image
-            src="/logo1.svg"
+            src={Logo1}
             alt="logo"
             height={32}
             width={50}
@@ -49,21 +54,21 @@ const Header = () => {
         {/* Icon Section */}
         <div className="flex space-x-4 md:space-x-10">
           <Image
-            src="/Vector1.svg"
+            src={Vector1}
             alt="icon1"
             height={28}
             width={28}
             className="h-auto w-auto"
           />
           <Image
-            src="/Vector2.svg"
+            src={Vector2}
             alt="icon2"
             height={28}
             width={28}
             className="h-auto w-auto"
           />
           <Image
-            src="/Vector3.svg"
+            src={Vector3}
             alt="icon3"
             height={28}
             width={28}
@@ -71,7 +76,7 @@ const Header = () => {
           />
           <Link href="/cart">
         <Image
-          src="/Vector4.svg"
+          src={Vector4}
           alt="icon4"
           height={28}
           width={28}
