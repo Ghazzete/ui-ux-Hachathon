@@ -340,14 +340,14 @@ function ShopePage() {
 
     {/* Item 2 */}
     <div className="flex flex-col items-center text-center">
-      <Image src={guarantee.svg} alt="guarantee" height={60} width={60} />
+      <Image src={guarantee} alt="guarantee" height={60} width={60} />
       <h1 className="font-semibold text-[25px] text-[#242424] mt-4">Warranty Protection</h1>
       <p className="font-medium text-[20px] text-[#898989]">Over 2 years</p>
     </div>
 
     {/* Item 3 */}
     <div className="flex flex-col items-center text-center">
-      <Image src={shipping.svg} alt="shipping" height={60} width={60} />
+      <Image src={shipping} alt="shipping" height={60} width={60} />
       <h1 className="font-semibold text-[25px] text-[#242424] mt-4">Free Shipping</h1>
       <p className="font-medium text-[20px] text-[#898989]">Order over 150 $</p>
     </div>
