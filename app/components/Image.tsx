@@ -1,10 +1,10 @@
 import Image from "next/image";
-import G1Svg from "@/Public/g1.svg";
-import G2Svg from "@/Public/g2.svg";
-import G3Svg from "@/Public/g3.svg";
-import G4Svg from "@/Public/g4.svg";
-import G5Svg from "@/Public/g5.svg";
-import G6Svg from "@/Public/g6.svg";
+import G1Svg from "@/public/g1.svg";
+import G2Svg from "@/public/g2.svg";
+import G3Svg from "@/public/g3.svg";
+import G4Svg from "@/public/g4.svg";
+import G5Svg from "@/public/g5.svg";
+import G6Svg from "@/public/g6.svg";
 
 const Gallery = () => {
   return (

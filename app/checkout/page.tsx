@@ -1,9 +1,8 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import logo1 from '@/Public/Logo1.svg'
-import icon from '@/Public/icon.svg'
-import Rectangle from '@/Public/Rectangle 1.svg'
+import logo1 from '@/public/Logo1.svg'
+import icon from '@/public/icon.svg'
 
 function Page() {
   const [selectedPayment, setSelectedPayment] = useState<string | null>(null);
@@ -36,7 +35,7 @@ function Page() {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-col md:flex-row md:justify-between pt-14 gap-6 mx-14">
+      <div className="flex flex-col md:flex-row md:justify-between py-14 gap-6 mx-14">
         {/* Left Section: Billing Details */}
         <div className="md:w-3/5 flex flex-col items-center">
           <div className="flex justify-center w-full">
@@ -72,7 +71,7 @@ function Page() {
               { label: "Street address", placeholder: "Street address" },
               { label: "Town / City", placeholder: "Town / City" },
               { label: "Province", placeholder: "Province" },
-              { label: "ZIP code", placeholder: "ZIP code" },
+              { placeholder: "ZIP code"},
             ].map(({ label, placeholder }) => (
               <div key={label} className="flex flex-col">
                 <label className="font-medium">{label}</label>

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Image1 from "@/Public/image 1.svg"
-import Image2 from "@/Public/image 2.svg"
-import Image3 from "@/Public/image 3.svg"
+import Image1 from "@/public/image 1.svg"
+import Image2 from "@/public/image 2.svg"
+import Image3 from "@/public/image 3.svg"
 
 function Features() {
   return (

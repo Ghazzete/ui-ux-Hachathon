@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Section1 from "@/Public/section1.svg"
-import Section2 from "@/Public/section2.svg"
+import Section1 from "@/public/section1.svg"
+import Section2 from "@/public/section2.svg"
 
 export default function Section() {
   return (

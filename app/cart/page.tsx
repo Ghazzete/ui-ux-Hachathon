@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo1 from '@/Public/Logo1.svg'
-import icon from '@/Public/icon.svg'
-import sofa from '@/Public/sofa.svg'
+import logo1 from '@/public/Logo1.svg'
+import icon from '@/public/icon.svg'
+import sofa from '@/public/sofa.svg'
 
 function page() {
   return (   

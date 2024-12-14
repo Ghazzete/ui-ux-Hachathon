@@ -4,11 +4,11 @@ import Image from "next/image";
 import { LuMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5"; // Close icon
 import Link from "next/link";
-import Logo1 from "@/Public/Logo1.svg"
-import Vector1 from "@/Public/Vector1.svg"
-import Vector2 from "@/Public/Vector2.svg"
-import Vector3 from "@/Public/Vector3.svg"
-import Vector4 from "@/Public/Vector4.svg"
+import Logo1 from "@/public/Logo1.svg"
+import Vector1 from "@/public/Vector1.svg"
+import Vector2 from "@/public/Vector2.svg"
+import Vector3 from "@/public/Vector3.svg"
+import Vector4 from "@/public/Vector4.svg"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

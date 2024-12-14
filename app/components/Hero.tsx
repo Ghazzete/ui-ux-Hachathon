@@ -1,4 +1,4 @@
-import HeroBg from "@/Public/bg.svg"
+
 export default function Hero() {
   return (
     <div

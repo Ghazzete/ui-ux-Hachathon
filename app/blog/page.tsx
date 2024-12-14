@@ -1,9 +1,7 @@
 import Image from 'next/image';
 
 // Import images
-import Rectangle1 from '@/public/Rectangle 1.svg';
 import Logo1 from '@/public/logo1.svg';
-import Icon from '@/public/icon.svg';
 import Blog from '@/public/blog.svg';
 import Blog2 from '@/public/blog2.svg';
 import Blog3 from '@/public/blog3.svg';

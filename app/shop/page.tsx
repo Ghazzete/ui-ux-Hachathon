@@ -1,21 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
 import { DiVim } from 'react-icons/di';
-import card1 from "@/Public/card (1).svg"
-import card2 from "@/Public/card (2).svg"
-import card3 from "@/Public/card (3).svg"
-import card4 from "@/Public/card (4).svg"
-import customer from "@/Public/customer-support.svg";
-import guarantee from "@/Public/guarantee.svg";
-import trophy from "@/Public/trophy 1.svg";
-import shipping from "@/Public/shipping.svg";
+import card1 from "@/public/card (1).svg"
+import card2 from "@/public/card (2).svg"
+import card3 from "@/public/card (3).svg"
+import card4 from "@/public/card (4).svg"
+import customer from "@/public/customer-support.svg";
+import guarantee from "@/public/guarantee.svg";
+import trophy from "@/public/trophy 1.svg";
+import shipping from "@/public/shipping.svg";
 
 function ShopePage() {
   return (
     <div>
     <div
       id="hero"
-      className="relative min-h-screen bg-no-repeat bg-cover bg-center"
+      className="relative h-[316px] bg-no-repeat bg-cover bg-center"
       style={{ backgroundImage: "url('/Rectangle 1.svg')" }}
     >
       <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">

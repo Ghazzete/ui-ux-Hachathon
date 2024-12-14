@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import Card1 from "@/Public/card (1).svg";
-import Card2 from "@/Public/card (2).svg";
-import Card3 from "@/Public/card (3).svg";
-import Card4 from "@/Public/card (4).svg";
-import Card5 from "@/Public/card (5).svg";
-import Card6 from "@/Public/card (6).svg";
-import Card7 from "@/Public/card (7).svg";
-import Card8 from "@/Public/card (8).svg";
+import Card1 from "@/public/card (1).svg";
+import Card2 from "@/public/card (2).svg";
+import Card3 from "@/public/card (3).svg";
+import Card4 from "@/public/card (4).svg";
+import Card5 from "@/public/card (5).svg";
+import Card6 from "@/public/card (6).svg";
+import Card7 from "@/public/card (7).svg";
+import Card8 from "@/public/card (8).svg";
 
 function Products() {
   return (
