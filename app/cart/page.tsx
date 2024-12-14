@@ -40,10 +40,10 @@ function page() {
   {/* Left Section - 60% */}
   <div className="w-full md:w-[60%]">
     <div className="flex bg-[#F9F1E7] h-[55px] w-full items-center justify-between px-4 md:px-20 gap-4">
-      <h2 className="font-medium text-[#000]">Product</h2>
-      <h2 className="font-medium text-[#000]">Price</h2>
-      <h2 className="font-medium text-[#000]">Quantity</h2>
-      <h2 className="font-medium text-[#000]">Subtotal</h2>
+      <h2 className="font-medium text-[#000000]">Product</h2>
+      <h2 className="font-medium text-[#000000]">Price</h2>
+      <h2 className="font-medium text-[#000000]">Quantity</h2>
+      <h2 className="font-medium text-[#000000]">Subtotal</h2>
     </div>
     <div className="mt-8 flex items-center gap-4">
       <Image src={sofa} alt="icon" height={90} width={111} />
