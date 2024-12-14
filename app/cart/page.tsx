@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo1 from '@/public/Logo1.svg'
+import Logo1 from '@/public/Logo1.svg'
 import icon from '@/public/icon.svg'
 import sofa from '@/public/sofa.svg'
 
@@ -16,7 +16,7 @@ function page() {
     >
       <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
       <Image
-          src={logo1}
+          src={Logo1}
           alt="logo"
           height={32}
           width={50}
