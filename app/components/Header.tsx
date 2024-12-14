@@ -4,7 +4,6 @@ import Image from "next/image";
 import { LuMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5"; // Close icon
 import Link from "next/link";
-import Logo1 from "@/public/Logo1.svg"
 import Vector1 from "@/public/Vector1.svg"
 import Vector2 from "@/public/Vector2.svg"
 import Vector3 from "@/public/Vector3.svg"
@@ -23,11 +22,10 @@ const Header = () => {
         {/* Logo Section */}
         <div className="flex items-center">
           <Image
-            src={Logo1}
+            src={"/Logo1.svg"}
             alt="logo"
             height={32}
             width={50}
-            className="object-contain"
             
           />
           <h1 className="font-montserrat font-bold text-[24px] md:text-[34px] ml-2 w-auto h-auto">
