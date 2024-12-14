@@ -1,7 +1,6 @@
 import Image from 'next/image';
 
 // Import images
-import Logo1 from '@/public/logo1.svg';
 import Blog from '@/public/blog.svg';
 import Blog2 from '@/public/blog2.svg';
 import Blog3 from '@/public/blog3.svg';
@@ -52,7 +51,7 @@ export default function Home() {
       >
         <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
           <Image
-            src={Logo1} // Logo Image
+            src={"/Logo1.svg"} // Logo Image
             alt="logo"
             height={32}
             width={50}
