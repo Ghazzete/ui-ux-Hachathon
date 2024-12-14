@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import logo1 from '@/Public/Logo1.svg'
 import icon from '@/Public/icon.svg'
+import Rectangle from '@/Public/Rectangle 1.svg'
 
 function Page() {
   const [selectedPayment, setSelectedPayment] = useState<string | null>(null);
