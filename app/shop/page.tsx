@@ -5,6 +5,10 @@ import card1 from "@/Public/card (1).svg"
 import card2 from "@/Public/card (2).svg"
 import card3 from "@/Public/card (3).svg"
 import card4 from "@/Public/card (4).svg"
+import customer from "@/Public/customer-support.svg";
+import guarantee from "@/Public/guarantee.svg";
+import trophy from "@/Public/trophy 1.svg";
+import shipping from "@/Public/shipping.svg";
 
 function ShopePage() {
   return (
@@ -329,28 +333,28 @@ function ShopePage() {
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
     {/* Item 1 */}
     <div className="flex flex-col items-center text-center">
-      <Image src={'/trophy 1.svg'} alt="trophy" height={60} width={60} />
+      <Image src={trophy} alt="trophy" height={60} width={60} />
       <h1 className="font-semibold text-[25px] text-[#242424] mt-4">High Quality</h1>
       <p className="font-medium text-[20px] text-[#898989]">crafted from top materials</p>
     </div>
 
     {/* Item 2 */}
     <div className="flex flex-col items-center text-center">
-      <Image src={'/guarantee.svg'} alt="guarantee" height={60} width={60} />
+      <Image src={guarantee.svg} alt="guarantee" height={60} width={60} />
       <h1 className="font-semibold text-[25px] text-[#242424] mt-4">Warranty Protection</h1>
       <p className="font-medium text-[20px] text-[#898989]">Over 2 years</p>
     </div>
 
     {/* Item 3 */}
     <div className="flex flex-col items-center text-center">
-      <Image src={'/shipping.svg'} alt="shipping" height={60} width={60} />
+      <Image src={shipping.svg} alt="shipping" height={60} width={60} />
       <h1 className="font-semibold text-[25px] text-[#242424] mt-4">Free Shipping</h1>
       <p className="font-medium text-[20px] text-[#898989]">Order over 150 $</p>
     </div>
 
     {/* Item 4 */}
     <div className="flex flex-col items-center text-center">
-      <Image src={'/customer-support.svg'} alt="customer support" height={60} width={60} />
+      <Image src={customer} alt="customer support" height={60} width={60} />
       <h1 className="font-semibold text-[25px] text-[#242424] mt-4">24 / 7 Support</h1>
       <p className="font-medium text-[20px] text-[#898989]">Dedicated support</p>
     </div>

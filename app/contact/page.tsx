@@ -2,9 +2,12 @@ import Image from "next/image";
 import Phone from "@/Public/phone.svg";
 import clock from "@/Public/clock.svg";
 import customer from "@/Public/customer-support.svg";
-import guarantee from "@/Public/guarantee.svg"
-import trophy from "@/Public/trophy 1.svg"
-import shipping from "@/Public/shipping.svg"
+import guarantee from "@/Public/guarantee.svg";
+import trophy from "@/Public/trophy 1.svg";
+import shipping from "@/Public/shipping.svg";
+import Rectangle from "@/Public/Rectangle 1.svg";
+import icon from "@/Public/icon.svg"
+import address from "@/Public/address.svg"
 
 export default function Contact() {
   return (
@@ -12,14 +15,14 @@ export default function Contact() {
       {/* Hero Section */}
       <div
         className="relative h-[316px] w-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/Rectangle 1.svg')" }} // Replace with your background image
+        style={{ backgroundImage: "url ${Rectangle}" }} // Replace with your background image
       >
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-40">
           <h1 className="text-[48px] font-medium text-[#000000]">Contact</h1>
           <div className="flex items-center mt-2">
             <h2 className="text-[#000000] font-medium">Home</h2>
             <span className=" mx-2">
-              <Image src="/icon.svg" alt="icon" height={8} width={14} /></span>
+              <Image src={icon.svg} alt="icon" height={8} width={14} /></span>
             <p className="text-[#000000] font-light">Contact</p>
           </div>
         </div>
@@ -41,7 +44,7 @@ export default function Contact() {
             {/* Address */}
             <div className="flex items-start space-x-4">
               <span className="text-2xl text-yellow-500">
-                <Image src="/address.svg" alt="icon" height={27} width={22} />
+                <Image src={address.svg} alt="icon" height={27} width={22} />
                 </span>
               <div>
                 <h3 className="text-lg font-medium">Address</h3>

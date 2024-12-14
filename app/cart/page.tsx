@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import logo1 from '@/Public/Logo1.svg'
+import icon from '@/Public/icon.svg'
+import sofa from '@/Public/sofa.svg'
 
 function page() {
   return (   
@@ -13,7 +16,7 @@ function page() {
     >
       <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
       <Image
-          src="/logo1.svg"
+          src={logo1}
           alt="logo"
           height={32}
           width={50}
@@ -24,7 +27,7 @@ function page() {
           <h2 className="font-medium text-[#000000] flex items-center">
             Home
             <span className="ml-2">
-              <Image src="/icon.svg" alt="icon" height={8} width={14} />
+              <Image src={icon} alt="icon" height={8} width={14} />
             </span>
           </h2>
           <p className="font-light text-[#000000] ml-2">Cart</p>
@@ -43,7 +46,7 @@ function page() {
       <h2 className="font-medium text-[#000]">Subtotal</h2>
     </div>
     <div className="mt-8 flex items-center gap-4">
-      <Image src="/sofa.svg" alt="icon" height={90} width={111} />
+      <Image src={sofa} alt="icon" height={90} width={111} />
       <p className="text-[#9F9F9F] mx-4">Asgaard sofa</p>
       <p className="text-[#9F9F9F] mx-4">Rs. 250,000.00</p>
       <button className="h-[32px] w-[32px] border border-[#9F9F9F] rounded-md">

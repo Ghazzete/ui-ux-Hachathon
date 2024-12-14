@@ -1,6 +1,8 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
+import logo1 from '@/Public/Logo1.svg'
+import icon from '@/Public/icon.svg'
 
 function Page() {
   const [selectedPayment, setSelectedPayment] = useState<string | null>(null);
@@ -18,13 +20,13 @@ function Page() {
         style={{ backgroundImage: "url('/Rectangle 1.svg')" }}
       >
         <div className="flex flex-col items-center justify-center w-full h-full absolute top-0 left-0">
-          <Image src="/logo1.svg" alt="logo" height={32} width={50} className="object-contain" />
+          <Image src={logo1} alt="logo" height={32} width={50} className="object-contain" />
           <h1 className="text-[48px] font-medium text-[#000000]">Checkout</h1>
           <div className="flex flex-row items-center">
             <h2 className="font-medium text-[#000000] flex items-center">
               Home
               <span className="ml-2">
-                <Image src="/icon.svg" alt="icon" height={8} width={14} />
+                <Image src={icon} alt="icon" height={8} width={14} />
               </span>
             </h2>
             <p className="font-light text-[#000000] ml-2">Checkout</p>
