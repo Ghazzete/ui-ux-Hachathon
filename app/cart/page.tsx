@@ -52,7 +52,7 @@ function page() {
       <button className="h-[32px] w-[32px] border border-[#9F9F9F] rounded-md">
         1
       </button>
-      <p className="text-[#000] mx-4">Asgaard sofa</p>
+      <p className="text-[#000000] mx-4">Asgaard sofa</p>
     </div>
   </div>
 
