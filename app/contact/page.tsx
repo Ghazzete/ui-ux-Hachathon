@@ -133,7 +133,7 @@ export default function Contact() {
               <div className="sm:col-span-2 mt-4">
                 <button
                   type="submit"
-                  className="w-[237px] h-[55px] bg-[#B88E2F] text-[#FFFFFF] py-2 rounded-lg hover:bg-yellow-600 transition"
+                  className="w-[237px] h-[55px] bg-[#B88E2F] text-[#FFFFFF] py-2 rounded-lg hover:bg-yellow-500 transition"
                 >
                   Submit
                 </button>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { DiVim } from 'react-icons/di';
 import card1 from "@/public/card (1).svg"
 import card2 from "@/public/card (2).svg"
 import card3 from "@/public/card (3).svg"
@@ -33,9 +32,9 @@ function ShopePage() {
   </div>
 </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-8 gap-8 mt-8 justify-items-center">
         {/* Item 1 */}
-        <div className="relative flex flex-col  w-[285px] h-[446px] bg-[#F4F5F7]">
+        <div className="relative flex flex-col w-[285px] h-[446px] bg-[#F4F5F7]">
   {/* Image */} 
   <Image
     src={card1}
@@ -315,19 +314,35 @@ function ShopePage() {
   </p>
 </div>
 </div>
-<div className=' flex justify-center pt-8 gap-4 mb-8'>
-    <div className='w-[60px] h-[60px] bg-[#B88E2F] flex justify-center items-center rounded-md'>
-        <h1 className=' text-white'>1</h1>
-    </div>
-    <div className='w-[60px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
-        <h1 className=' text-black'>1</h1>
-    </div>
-    <div className='w-[60px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
-        <h1 className=' text-black'>1</h1>
-    </div>
-    <div className='w-[98px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
-        <h1 className=' text-black'>Next</h1>
-    </div>
+<div className=' flex justify-center py-14 gap-4 mb-8'>
+<div className='w-[60px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
+  <button 
+    className='w-full h-full rounded-md hover:bg-[#B88E2F] hover:text-white text-black'
+  >
+    1
+  </button>
+</div>
+<div className='w-[60px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
+  <button 
+    className='w-full h-full rounded-md hover:bg-[#B88E2F] hover:text-white text-black'
+  >
+    2
+  </button>
+</div>
+<div className='w-[60px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
+  <button 
+    className='w-full h-full rounded-md hover:bg-[#B88E2F] hover:text-white text-black'
+  >
+    3
+  </button>
+</div>
+<div className='w-[98px] h-[60px] bg-[#F9F1E7] flex justify-center items-center rounded-md'>
+  <button 
+    className='w-full h-full rounded-md hover:bg-[#B88E2F] hover:text-white text-black'
+  >
+    Next
+  </button>
+</div>
 </div>
 <div className="h-auto mx-2 flex items-center bg-[#FAF3EA] py-6">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">

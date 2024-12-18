@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import icon from '@/public/icon.svg'
@@ -71,7 +70,7 @@ function page() {
     </div>
     <div className="flex flex-row justify-center items-center gap-6 mt-6">
       <Link href="/checkout">
-    <button className='h-[58px] w-[222px] border rounded-md border-[#000]'>Check Out</button>
+    <button className='h-[58px] w-[222px] border rounded-md border-[#000] hover:bg-black hover:text-[#fff]n'>Check Out</button>
     </Link>
     </div>
     </div>
