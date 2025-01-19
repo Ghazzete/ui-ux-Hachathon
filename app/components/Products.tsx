@@ -8,6 +8,7 @@ import Card5 from "@/public/card (5).svg";
 import Card6 from "@/public/card (6).svg";
 import Card7 from "@/public/card (7).svg";
 import Card8 from "@/public/card (8).svg";
+import Link from "next/link";
 
 function Products() {
   // Array of product data
@@ -103,10 +104,11 @@ function Products() {
                 height={301}
                 className="w-full h-full object-cover"
               />
-              {/* Add to Cart Button */}
+              <Link href="cart">
               <button className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 w-[202px] h-[48px] bg-[#fff] text-[#B88E2F] px-4 py-2 transition-all duration-300">
                 Add to Cart
               </button>
+              </Link>
             </div>
 
             {/* Discount Circle */}

@@ -2,18 +2,37 @@
   "name": "ui-hachathon",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "import-data": "node script/importData.js"
   },
   "dependencies": {
-    "next": "14.2.18",
+    "@reduxjs/toolkit": "^2.5.0",
+    "@sanity/client": "^6.25.0",
+    "@sanity/icons": "^3.5.7",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.70.0",
+    "@types/react-toastify": "^4.1.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "gsap": "^3.12.5",
+    "next": "^14.2.23",
+    "next-sanity": "^9.8.38",
+    "node-fetch": "^3.3.2",
     "react": "^18",
     "react-dom": "^18",
     "react-icon": "^1.0.0",
-    "react-icons": "^5.4.0"
+    "react-icons": "^5.4.0",
+    "react-redux": "^9.2.0",
+    "react-toastify": "^11.0.2",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "sanity": "^3.70.0",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",

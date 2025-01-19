@@ -1,9 +1,12 @@
+
 import { Poppins, Roboto} from "next/font/google"
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { CartProvider } from "@/context/ContextCart";
+
 
 const myfont = Poppins({
   subsets: ["latin"],
@@ -31,9 +34,11 @@ export default function RootLayout({
     <html lang="en">
       <body
       className={myfont.className}>
+       <CartProvider>
       <Header />
         {children}
         <Footer />
+        </CartProvider>
       </body>
     </html>
   );
