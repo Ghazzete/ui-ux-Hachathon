@@ -66,7 +66,7 @@ const ProductCards: React.FC = () => {
   return (
     <div className="p-4">
       <h2 className="text-center text-slate-800 mt-4 mb-4">
-        Products From API's Data
+        Products From API&apos;s Data
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (
@@ -106,11 +106,13 @@ const ProductCards: React.FC = () => {
                   </span>
                 ))}
               </div>
-              <button  onClick={() => addToCart(product)}
-className="bg-clip-border relative bg-blue-500 px-6 py-1 w-full text-white rounded-lg font-semibold text-lg overflow-hidden group">
-    <span className="absolute inset-0 bg-gradient-to-tl from-blue-600 via-indigo-500 to-purple-600 transform group-hover:scale-y-100 scale-y-0 transition-transform duration-500 origin-bottom z-0"></span>
-    <span className="relative z-10">Add To Cart</span> {/* Ensure text is on top */}
-  </button>
+              <button
+                onClick={() => addToCart(product)}
+                className="bg-clip-border relative bg-blue-500 px-6 py-1 w-full text-white rounded-lg font-semibold text-lg overflow-hidden group"
+              >
+                <span className="absolute inset-0 bg-gradient-to-tl from-blue-600 via-indigo-500 to-purple-600 transform group-hover:scale-y-100 scale-y-0 transition-transform duration-500 origin-bottom z-0"></span>
+                <span className="relative z-10">Add To Cart</span> {/* Ensure text is on top */}
+              </button>
             </div>
           </div>
         ))}
@@ -142,7 +144,7 @@ className="bg-clip-border relative bg-blue-500 px-6 py-1 w-full text-white round
           </ul>
         ) : (
           <p className="text-black text-center">
-            Your Cart Is Empty Please Add Products
+            Your Cart Is Empty. Please Add Products.
           </p>
         )}
       </div>
@@ -151,6 +153,3 @@ className="bg-clip-border relative bg-blue-500 px-6 py-1 w-full text-white round
 };
 
 export default ProductCards;
-
-
- 

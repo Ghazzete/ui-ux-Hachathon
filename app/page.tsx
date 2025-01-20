@@ -1,4 +1,3 @@
-
 import React from "react";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
@@ -7,8 +6,7 @@ import Section from "./components/Section";
 import Gallery from "./components/Image";
 import ProductCards from "./components/products/page";
 
-
-export function page () {
+const Page = () => {
   return (
     <div>
       <Hero />
@@ -16,9 +14,9 @@ export function page () {
       <Products />
       <Section />
       <Gallery />
-      <ProductCards/>
+      <ProductCards />
     </div>
   );
 };
 
-export default page;
+export default Page;
