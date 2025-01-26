@@ -192,7 +192,7 @@ function Page() {
             <h2 className="text-xl font-semibold text-green-500">Your order has been successfully placed!</h2>
             <button
               onClick={() => setOrderPlaced(false)}
-              className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md"
+              className="mt-4 px-4 py-2 bg-[#B88E2F] text-white rounded-md"
             >
               Close
             </button>

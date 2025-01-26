@@ -54,7 +54,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     fetchProduct();
-  }, [id]);
+  }, [id, fetchProduct]);
 
   if (loading) {
     return (
@@ -93,7 +93,7 @@ const ProductDetail = () => {
             <p className="text-gray-600 text-lg my-4 line-clamp-[9]">{product.description}</p>
 
             <div className="flex items-center gap-6 my-6">
-              <p className="text-3xl font-bold text-blue-600">${product.price}</p>
+              <p className="text-3xl font-bold text-slate-600">${product.price}</p>
               {product.discountPercentage > 0 && (
                 <p className="text-xl text-green-500 font-semibold">
                   {product.discountPercentage}% OFF
@@ -129,7 +129,7 @@ const ProductDetail = () => {
                 image: product.imageUrl,
               });
             }}
-            className="bg-blue-500 px-6 py-3 mt-6 w-full text-white rounded-lg font-medium text-lg hover:bg-blue-600 transition-colors"
+            className="bg-[#B88E2F] px-6 py-3 mt-6 w-full text-white rounded-lg font-medium text-lg hover:bg-[#fdc542] transition-colors"
           >
             Add To Cart
           </button>

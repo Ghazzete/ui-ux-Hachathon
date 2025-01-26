@@ -86,7 +86,7 @@ const ProductCards: React.FC = () => {
               </p>
               <div className="flex justify-between items-center mt-4">
                 <div>
-                  <p className="text-lg font-bold text-blue-600">${product.price}</p>
+                  <p className="text-lg font-bold text-slate-400">${product.price}</p>
                   {product.discountPercentage > 0 && (
                     <p className="text-sm text-green-600 font-medium">
                       {product.discountPercentage}% OFF
@@ -106,7 +106,7 @@ const ProductCards: React.FC = () => {
       image: product.imageUrl, // Use the image URL here
     }); // Dispatching cart action
   }}
-  className="bg-blue-500 px-4 py-2 w-full text-white rounded-lg font-medium text-md mt-4 hover:bg-blue-600 transition-colors"
+  className="bg-[#B88E2F] px-4 py-2 w-full text-white rounded-lg font-medium text-md mt-4 hover:bg-[#f2bc3e] transition-colors"
 >
   Add To Cart
 </button>

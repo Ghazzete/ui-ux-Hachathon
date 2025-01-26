@@ -5,7 +5,7 @@ function Footer() {
     <div className="w-full  py-10 px-4 md:px-16">
       <div className="flex flex-col md:flex-row justify-between gap-8 border-b-2">
         <div className="w-full md:w-1/5">
-          <h2 className="text-2xl font-bold mb-8 ">Funiro.</h2>
+          <h2 className="text-2xl font-bold mb-8 ">Furniro.</h2>
           <p className="text-lg text-[#9F9F9F]">
           400 University Drive Suite 200 Coral Gables,
           FL 33134 USA

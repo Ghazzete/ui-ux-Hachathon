@@ -126,7 +126,7 @@ const ShopePage: React.FC = () => {
                       image: product.imageUrl,
                     }); 
                   }}
-                  className="bg-blue-500 px-4 py-2 w-full text-white rounded-lg font-medium text-md mt-4 hover:bg-blue-600 transition-colors"
+                  className="bg-[#B88E2F] px-4 py-2 w-full text-white rounded-lg font-medium text-md mt-4 hover:bg-[#e5b544] transition-colors"
                 >
                   Add To Cart
                 </button>

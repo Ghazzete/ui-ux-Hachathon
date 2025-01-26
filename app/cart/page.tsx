@@ -37,8 +37,15 @@ const CartPage = () => {
   if (cart.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center h-screen">
-        <p className="text-xl font-semibold text-gray-700">Your cart is empty!</p>
-        <Image src="/empty-cart.svg" alt="empty-cart" height={150} width={150} />
+        <p className="text-xl font-semibold text-gray-700">
+          Your cart is empty!
+        </p>
+        <Image
+          src="/empty-cart.svg"
+          alt="empty-cart"
+          height={150}
+          width={150}
+        />
       </div>
     );
   }
@@ -65,9 +72,12 @@ const CartPage = () => {
 
       <div className="grid grid-cols-1 gap-6">
         {cart.map((item) => (
-          <div key={item.id} className="flex justify-between items-center p-4 border-b border-gray-300 shadow-lg">
+          <div
+            key={item.id}
+            className="flex justify-between items-center p-4 border-b border-gray-300 shadow-lg"
+          >
             <div className="flex items-center">
-              <img
+              <Image
                 src={item.image}
                 alt={item.title}
                 className="w-20 h-20 object-cover rounded-md mr-4"
@@ -94,7 +104,9 @@ const CartPage = () => {
               </button>
             </div>
 
-            <div className="text-xl font-semibold text-blue-600">${item.price * item.quantity}</div>
+            <div className="text-xl font-semibold text-[#d5a537]">
+              ${item.price * item.quantity}
+            </div>
 
             <button
               onClick={() => handleRemove(item.id)}
@@ -105,13 +117,13 @@ const CartPage = () => {
           </div>
         ))}
 
-        {error && (
-          <p className="text-red-500 text-center mt-4">{error}</p>
-        )}
+        {error && <p className="text-red-500 text-center mt-4">{error}</p>}
 
         <div className="flex justify-between items-center p-4 mt-4 border-t border-gray-300">
           <h2 className="text-2xl font-semibold">Total</h2>
-          <span className="text-xl font-bold text-blue-600">${calculateTotal()}</span>
+          <span className="text-xl font-bold text-blue-600">
+            ${calculateTotal()}
+          </span>
         </div>
       </div>
 
