@@ -29,7 +29,7 @@ const Header = () => {
             
           />
           <h1 className="font-montserrat font-bold text-[24px] md:text-[34px] ml-2 w-auto h-auto">
-            Funira
+            Furniro
           </h1>
         </div>
 

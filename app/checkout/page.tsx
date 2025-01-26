@@ -1,14 +1,32 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import icon from '@/public/icon.svg'
+import icon from '@/public/icon.svg';
+import { useCart } from "@/app/cartContext";
 
 function Page() {
   const [selectedPayment, setSelectedPayment] = useState<string | null>(null);
+  const [orderPlaced, setOrderPlaced] = useState(false); // New state for order placement success
+  const [error, setError] = useState<string | null>(null); // Error state for invalid inputs
+  const { cart } = useCart(); // Assuming cart context is being used for product details
 
   const handlePaymentChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSelectedPayment(e.target.value);
   };
+
+  const handlePlaceOrder = () => {
+    // Validation for fields (for example, ensure payment method is selected)
+    if (!selectedPayment) {
+      setError("Please select a payment method.");
+      return;
+    }
+
+    // Handle order placement logic here (e.g., submitting form, etc.)
+    setOrderPlaced(true); // Set state to show success message
+    setError(null); // Reset error state after successful order
+  };
+
+  const totalAmount = cart.reduce((total, product) => total + product.price * product.quantity, 0);
 
   return (
     <div>
@@ -43,7 +61,7 @@ function Page() {
           <div className="flex flex-col mt-10 gap-8">
             {/* First and Last Name */}
             <div className="flex flex-row ">
-            <div className="flex flex-col ">
+              <div className="flex flex-col ">
                 <label htmlFor="firstName" className="mb-2 font-medium">First Name</label>
                 <input
                   type="text"
@@ -51,7 +69,7 @@ function Page() {
                   placeholder="Enter First Name"
                   className="border border-[#9F9F9F] rounded-md w-[211px] h-[75px] pl-2"
                 />
-                </div>
+              </div>
               <div className="flex flex-col ml-6">
                 <label htmlFor="lastName" className="mb-2 font-medium">Last Name</label>
                 <input
@@ -64,13 +82,13 @@ function Page() {
             </div>
 
             {/* Other Fields */}
-            {[
+            {[ 
               { label: "Company Name (Optional)", placeholder: "Enter Company Name" },
               { label: "Country / Region", placeholder: "Country / Region" },
               { label: "Street address", placeholder: "Street address" },
               { label: "Town / City", placeholder: "Town / City" },
               { label: "Province", placeholder: "Province" },
-              { placeholder: "ZIP code"},
+              { placeholder: "ZIP code" }
             ].map(({ label, placeholder }) => (
               <div key={label} className="flex flex-col">
                 <label className="font-medium">{label}</label>
@@ -92,13 +110,16 @@ function Page() {
               <h1 className="text-[24px] font-semibold">Product</h1>
               <h1 className="text-[24px] font-semibold">Subtotal</h1>
             </div>
-            <div className="flex flex-row justify-between">
-              <p className="text-[#9F9F9F]">Asgaard sofa</p>
-              <p className="font-light">Rs. 250,000.00</p>
-            </div>
+            {/* Assuming cart items are here */}
+            {cart.map(product => (
+              <div key={product.id} className="flex flex-row justify-between">
+                <p className="font-medium">{product.title} x {product.quantity}</p>
+                <p className="font-light">${product.price * product.quantity}</p>
+              </div>
+            ))}
             <div className="flex flex-row justify-between">
               <h1 className="font-medium">Total</h1>
-              <h1 className="font-bold text-[24px] text-[#B88E2F]">Rs. 250,000.00</h1>
+              <h1 className="font-bold text-[24px] text-[#B88E2F]">${totalAmount}</h1>
             </div>
           </div>
 
@@ -149,14 +170,35 @@ function Page() {
             Your personal data will be used to support your experience throughout this website.
           </p>
 
+          {/* Error Message */}
+          {error && <p className="text-red-500 mt-4">{error}</p>}
+
           {/* Place Order Button */}
           <div className="mt-6 flex justify-center">
-            <button className="border border-[#000] h-[64px] w-full rounded-md hover:bg-black hover:text-white transition">
+            <button
+              onClick={handlePlaceOrder}
+              className="border border-[#000] h-[64px] w-full rounded-md hover:bg-black hover:text-white transition"
+            >
               Place Order
             </button>
           </div>
         </div>
       </div>
+
+      {/* Success Message */}
+      {orderPlaced && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white p-8 rounded-md shadow-lg">
+            <h2 className="text-xl font-semibold text-green-500">Your order has been successfully placed!</h2>
+            <button
+              onClick={() => setOrderPlaced(false)}
+              className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

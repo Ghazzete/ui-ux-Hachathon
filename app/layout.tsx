@@ -5,7 +5,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { CartProvider } from "@/context/ContextCart";
+import { CartProvider } from "./cartContext";
 
 
 const myfont = Poppins({
@@ -33,11 +33,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-      className={myfont.className}>
-       <CartProvider>
+      className={myfont.className}> 
+      <CartProvider >
       <Header />
         {children}
-        <Footer />
+        <Footer /> 
         </CartProvider>
       </body>
     </html>
